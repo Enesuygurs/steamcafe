@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8B7BD832-E6C0-44DC-BA17-525A93908FCF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Steam_Cafe</RootNamespace>
+    <AssemblyName>Steam Cafe</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icons8-coffee-beans-100.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>..\packages\BouncyCastle.Cryptography.2.4.0\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.1.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql, Version=5.0.18.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Npgsql.5.0.18\lib\netstandard2.0\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.3\lib\netstandard2.0\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.5.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.6.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.4.6.0\lib\netstandard2.0\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.4.6.0\lib\net461\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Channels, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Channels.4.7.0\lib\netstandard2.0\System.Threading.Channels.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.2\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="borderlessTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="fisEkran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fisEkran.Designer.cs">
+      <DependentUpon>fisEkran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="girisPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="girisPanel.Designer.cs">
+      <DependentUpon>girisPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="masaSecimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="masaSecimi.Designer.cs">
+      <DependentUpon>masaSecimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modernGroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="yetkiliPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yetkiliPanel.Designer.cs">
+      <DependentUpon>yetkiliPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yonetimPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yonetimPanel.Designer.cs">
+      <DependentUpon>yonetimPanel.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="fisEkran.resx">
+      <DependentUpon>fisEkran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="girisPanel.resx">
+      <DependentUpon>girisPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="masaSecimi.resx">
+      <DependentUpon>masaSecimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="yetkiliPanel.resx">
+      <DependentUpon>yetkiliPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yonetimPanel.resx">
+      <DependentUpon>yonetimPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icons8-coffee-beans-100.ico" />
+    <None Include="Resources\iconResim.png" />
+    <None Include="Resources\logo.png" />
+    <None Include="Resources\iconMateryal.png" />
+    <None Include="Resources\iconYazdir.png" />
+    <None Include="Resources\iconMasaBuyuk.png" />
+    <None Include="Resources\iconBuyukMasa.png" />
+    <None Include="Resources\iconKaldir.png" />
+    <None Include="Resources\iconListeleSiyah.png" />
+    <None Include="Resources\iconVarsayilanResim.png" />
+    <None Include="Resources\iconSifreSiyah.png" />
+    <None Include="Resources\iconKullaniciSiyah.png" />
+    <None Include="Resources\iconKullanicilarSiyah.png" />
+    <None Include="Resources\icons8-customer-30.png" />
+    <None Include="Resources\icons8-order-30.png" />
+    <None Include="Resources\icons8-new-product-30.png" />
+    <None Include="Resources\icons8-find-30.png" />
+    <None Include="Resources\icons8-cutlery-30.png" />
+    <None Include="Resources\icons8-credit-card-30 %281%29.png" />
+    <None Include="Resources\icons8-clock-30 %281%29.png" />
+    <None Include="Resources\icons8-admin-30.png" />
+    <None Include="Resources\icons8-add-properties-30.png" />
+    <None Include="Resources\icons8-user-account-30.png" />
+    <None Include="Resources\icons8-update-30.png" />
+    <None Include="Resources\icons8-table-30.png" />
+    <None Include="Resources\icons8-stock-chart-30.png" />
+    <None Include="Resources\icons8-status-30.png" />
+    <None Include="Resources\icons8-status-30 %281%29.png" />
+    <None Include="Resources\icons8-reservation-30.png" />
+    <None Include="Resources\icons8-remove-30.png" />
+    <None Include="Resources\icons8-product-30.png" />
+    <None Include="Resources\icons8-performance-macbook-30.png" />
+    <None Include="Resources\icons8-payment-30.png" />
+    <None Include="Resources\Y1Mt.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

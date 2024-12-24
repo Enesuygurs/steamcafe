@@ -1,0 +1,40 @@
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\bin\Debug\Steam Cafe.exe.config
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\bin\Debug\Steam Cafe.exe
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\bin\Debug\Steam Cafe.pdb
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\obj\Debug\Steam Cafe.csproj.AssemblyReference.cache
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\obj\Debug\Steam_Cafe.Form1.resources
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\obj\Debug\Steam_Cafe.Properties.Resources.resources
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\obj\Debug\Steam Cafe.csproj.GenerateResource.cache
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\obj\Debug\Steam Cafe.csproj.CoreCompileInputs.cache
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\obj\Debug\Steam Cafe.exe
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\obj\Debug\Steam Cafe.pdb
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\obj\Debug\Steam_Cafe.girisPanel.resources
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\obj\Debug\Steam_Cafe.yonetimPanel.resources
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\bin\Debug\Npgsql.dll
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\bin\Debug\System.Buffers.dll
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\bin\Debug\System.Memory.dll
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\bin\Debug\System.Text.Json.dll
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\bin\Debug\System.Threading.Channels.dll
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\bin\Debug\System.ValueTuple.dll
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\bin\Debug\Npgsql.xml
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\bin\Debug\System.Buffers.xml
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\bin\Debug\System.Memory.xml
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\bin\Debug\System.Text.Json.xml
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\bin\Debug\System.Threading.Channels.xml
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\bin\Debug\System.ValueTuple.xml
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\obj\Debug\Steam Cafe.csproj.Up2Date
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\obj\Debug\Steam_Cafe.yetkiliPanel.resources
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\obj\Debug\Steam_Cafe.masaSecimi.resources
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Jiko\source\repos\Steam Cafe\Steam Cafe\obj\Debug\Steam_Cafe.fisEkran.resources
