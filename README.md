@@ -7,3 +7,35 @@ Steam Cafe uygulaması, bir kafe işletmesinin tüm operasyonlarını yönetmek 
 
 # Uygulama içi yetkilere göre Varlık Bağıntı Diyagramı 
 ![image](https://github.com/user-attachments/assets/994c439a-5a77-4a0f-9bbf-822304c9525b)
+
+
+# Uygulma içi ekran görüntüleri
+![1](https://github.com/user-attachments/assets/2d95b84c-0e03-4acb-a1da-7c8b915fa292)
+
+
+![2](https://github.com/user-attachments/assets/0b5f4554-e00e-4e08-a52a-5a5429b1a3dd)
+
+
+![3](https://github.com/user-attachments/assets/4d7d58c1-b1e1-42f7-ada9-c187ff72c74a)
+
+
+![4](https://github.com/user-attachments/assets/fb4e8023-f5ce-4746-9b43-2b0f096cb511)
+
+
+![5](https://github.com/user-attachments/assets/9587fd06-827c-4064-b526-7ceeb224c61f)
+
+
+![6](https://github.com/user-attachments/assets/477cf131-d08f-4296-9f34-648edb063e28)
+
+
+![7](https://github.com/user-attachments/assets/fe6ba457-59ec-4bfc-8915-f487137c938f)
+
+
+![8](https://github.com/user-attachments/assets/e37b161d-6fab-4fc0-854c-dfe2a56a5567)
+
+
+![9](https://github.com/user-attachments/assets/7fe6ba15-931c-43a0-993f-a906d2fb634a)
+
+
+![10](https://github.com/user-attachments/assets/a5f6a28f-b461-41cc-9bbd-a3d3ee2a6d89)
+
