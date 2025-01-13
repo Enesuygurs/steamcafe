@@ -1,5 +1,4 @@
 # Steam Cafe (Veritabanı Yönetim Sistemleri Proje Ödevi)
-Uygulamanın Tanıtımı
 Steam Cafe uygulaması, bir kafe işletmesinin tüm operasyonlarını yönetmek için tasarlanmış detaylı bir Kafe Yönetim Sistemidir. Sistem, kafe çalışanlarını, siparişleri, ürünleri, malzemeleri, müşterileri, müşteri puanlarını, çalışan performanslarını, vardiyaları, rezervasyonları ve geri kalan tüm verileri yönetmeyi amaçlar. Ayrıca, veritabanı altyapısı sayesinde veri tutarlılığı ve güvenliği sağlanmaktadır. Varlık bağıntı şemasında da görüldüğü üzere bu program, her kullanıcı için yetkilendirme sağlamaktadır. Kafe yöneticisi için tüm veritabanına erişim verilirken kafe şef’ine ve garson rolüne sahip kişilere sınırlı erişim sağlamaktadır.
 
 ## Varlık Bağıntı Diyagramı (ER Diagram)
@@ -41,3 +40,29 @@ Steam Cafe uygulaması, bir kafe işletmesinin tüm operasyonlarını yönetmek 
 ## Siparişin yönetim panelinde görüntülenmesi
 ![10](https://github.com/user-attachments/assets/a5f6a28f-b461-41cc-9bbd-a3d3ee2a6d89)
 
+## Fonksiyonlar
+
+Fonksiyon 1: SELECT toplam_tutar_hesapla(5);
+
+Fonksiyon 2: SELECT stok_guncelle(1, 2, true);
+
+Fonksiyon 3: SELECT * FROM bos_masalar_listele();
+
+Fonksiyon 4: SELECT rezervasyon_iptal(2);
+
+Fonksiyon 5: SELECT degerlendirme_ortalama();
+
+Fonksiyon 6: SELECT odeme(1, '2024-12-16 14:30:00', 'Kredi Kartı');
+
+Fonksiyon 7: SELECT yeni_kisi_ekle(6, 'Serhat Aydın', 'Müşteri');
+
+## Triggerlar
+siparis_stok_azalt(): Sipariş verildiğinde ürünlerdeki stok azalır.
+
+stok_artir(): Sipariş iptal edildiğinde ürünlerdeki stok artar.
+
+siparis_urun_temizle(): Sipariş silinirse siparişürünler'deki ilişkili veri de silinir.
+
+kritik_stok_ekle(): Bir ürün stoğu 5'den az miktara düşerse kritikstok tablosuna eklenir ve böylece takibi daha kolay yapılır.
+
+masa_durum_guncelle(): Rezervasyon eklenince masalar tablosundaki masa 'dolu' olur. silince 'boş' olarak ayarlanır.
