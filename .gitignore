@@ -1,0 +1,7 @@
+# Visual Studio build output and NuGet packages
+bin/
+obj/
+packages/
+.vs/
+*.user
+*.suo
