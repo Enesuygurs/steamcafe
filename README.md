@@ -66,3 +66,7 @@ siparis_urun_temizle(): Sipariş silinirse siparişürünler'deki ilişkili veri
 kritik_stok_ekle(): Bir ürün stoğu 5'den az miktara düşerse kritikstok tablosuna eklenir ve böylece takibi daha kolay yapılır.
 
 masa_durum_guncelle(): Rezervasyon eklenince masalar tablosundaki masa 'dolu' olur. silince 'boş' olarak ayarlanır.
+
+## Kaynaklar
+
+Uygulamadaki ikonların bir kısmı [Icons8](https://icons8.com) tarafından sağlanmıştır.
